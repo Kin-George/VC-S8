@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Sesión 8</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/night.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/a11y-light.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2 class="titulos" style="font-size:38px"> Viernes de Código </h1>
+					<h2 style="font-size:35px"> Análisis de datos con python </h2>
+					<h2 style="font-size:35px"> Universidad del Norte - Departamento de Economía</h2>
+					<h3 style="font-size:30px"> Jorge Mario Orozco Thomas </h3>
+					<h3 style="font-size:30px"> Sesión 8: Manejo básico de archivos II </h3>
+					<h4 style="font-size:30px"> Mayo de 2023 </h4>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h1 style="font-size:60px">Programación</h1>
+					<ul style="list-style-type:'🎮'">
+						<li>Asistencia y registro</li>
+						<li>Estrategias para depurar bases de datos</li>
+						<li>Diccionarios de Datos</li>
+						<li>Filtros, tratamientos y estadisticas básicas de la base de datos</li>
+						<li>Grafico descriptivos</li>
+						<li>Exportar los datos luego de tratados</li>
+						<li>Generar Documento de Trabajo</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2 style="font-size:40px">Asistencia</h2>
+					<a href="https://forms.gle/rsobq6JBBYJfrX6o7" target="_blank">Asistencia</a>
+					<br>
+					<a href="https://github.com/Kin-George/Viernes-de-Codigo" target="_blank">Material</a>
+				</section>
+
+				<section data-auto-animate data-transition="convex">
+					<h2>Estrategias para depurar bases de datos</h2>
+					<p style="font-size: 30px; text-align: justify;">
+						1. Identificar los errores.
+						<br>
+						2. Mirar si tenemos datos duplicados.
+						<br>
+						3. Recodificar variables segun nuestras necesidades.
+						<br>
+						4. Tratamiento de los datos.
+						<br>
+						5. Exportar resultados.
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h2>Diccionario de Datos</h2>
+					<p style="font-size: 30px; text-align: justify;">
+						El diccionario de datos es una herramienta utilizada en bases de datos que por su naturaleza trabaja con muchas variables.
+						<br>
+						Es util aprender a manejar con soltura este tipo de herramientas pues nos ahorran tiempo y permiten comprender cualquier estructura de cualquier base de datos.
+						<br>
+						NOTA: NO todas las bases de datos van a trabajar con diccionarios de Datos, pero es probable que entre mas compleja sea, el uso de un diccionario puede ser muy útil.
+					</p>
+				</section>
+
+				<section data-auto-animate>
+					<h2>Diccionario de Datos de nuestra base de datos</h2>
+					<p style="font-size: 30px; text-align: justify;">
+						AC20 = ACT_Composition_Score
+						<br>
+						AC21 = SAT_Total_Score
+						<br>
+						AC22 = Parental level of education
+						<br>
+						AC23 = Parental Income
+						<br>
+						AC24 = High School GPA
+						<br>
+						AC25 = Collegue GPA
+						<br>
+						AC26 = Years to graduate
+					</p>
+				</section>
+
+				<section>
+					<h2 style="font-size: 40px;">Filtro, tratamiento y estadisticas basicas de la base de datos</h2>
+					<p style="text-align: justify;"></p>
+				</section>
+
+				<section>
+					<h2 >Gráficos descriptivos</h2>
+					<p style="text-align:left;justify-content:left;">
+						1. Histogramas.
+						<br>
+						2. Graficos de dispersión.
+					</p>
+				</section>
+
+				<section>
+					<h2>Exportar nuestros datos</h2>
+				</section>
+
+				<section>
+					<h2>Generar el documento de trabajo</h2>
+					<p>Utilizaremos Markdown para generar un documento de trabajo presentable utilizando el mismo jupyter.</p>
+				</section>
+
+			</div>
+		</div>
+		
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
